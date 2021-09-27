@@ -1,0 +1,242 @@
+
+#intro{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/assets/img/backgroundintro.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.mywith{
+    min-width: 100%;
+}
+#intro .wrapper{
+    position: absolute;
+    top: 75px;
+    text-align: center;  
+}
+#intro .wrapper h1{
+    font-size: 8em;
+    color: #fff;
+}
+#intro .wrapper h3{
+    font-size: 1.5em;
+    color: #ffce3e;
+}
+#intro .wrapper p{
+    color: #fff;
+}
+.mytext p{
+    font-size: 20px;
+    text-align: center;
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    /* padding: 0 240px; */
+    max-width: 800px;
+}
+.mybuttons{
+    display: flex;
+    position: relative;
+}
+.button1{
+    
+    font-size: 1.3rem;
+    position: absolute;
+    
+}
+.button2{
+    font-size: 1.3rem;
+    position: absolute;
+    right: 260px;
+    top: 75px;
+}
+#question{
+    background-color: #ffce3e;
+}
+.position{
+    margin-top: 30px;
+}
+.position .b-button{
+    font-weight: 700;
+    width: 200px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 0;
+}
+.position .w-button{
+    font-weight: 700;
+    width: 140px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 0;
+}
+.mycard{
+    border: 0;
+    margin-bottom: 20px;
+}
+.mycard img{
+    width: 390px;
+    height: 259px;
+}
+.cardtext h3{
+    font-weight: unset;
+    font-size: 1.25em;
+}
+.cardtext a{
+    font-weight: 500;
+    color: #ffce3e;
+    text-decoration: none;
+}
+/* .abouttext{
+    position: relative;
+    display: block;
+} */
+.abouttext{
+    text-align: center;
+}
+.abouttext p{
+    margin: 0 25%;
+}
+.mydisplay{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.mydisplay div p{
+    width: 200px;
+}
+.mydisplay .aboutposition{
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+.background{
+    background-image: url(/assets/img/aboutimag.jpeg);
+    background-repeat: no-repeat;
+    background-size: 280px 100%;
+}
+#slide img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#slide{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(/assets/img/background2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-width: 100%;
+    min-height: 70vh;
+}
+#slide .slider .slidetext{
+    color: #fff;
+    margin: 15px;
+}
+#slide .slider{
+    margin-top: 10px;
+}
+#brand{
+    background-color: rgb(202, 210, 216);
+}
+#brand img{
+    width: 100%;
+    height: 100%;
+}
+.teamcard{
+    width: 300px;
+    border: 0;
+    background-color: rgb(218, 222, 224);
+}
+.teamcard h2{
+    font-weight: 400;
+    font-size: 20px;
+}
+.teamcard h4{
+    font-weight: 400;
+    font-size: 13px;
+}
+#stat{
+    background-color: rgb(235, 181, 47);
+}
+.testiphoto{
+    position: relative;
+}
+.testiphoto img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -63px;
+    left: 80px;
+}
+.testiphoto i{
+    position: absolute;
+    font-size: 50px;
+    top: -30px;
+    left: 20px;
+    color: rgb(255, 217, 2);
+}
+.testicard{
+    border: 0;
+}
+.myrow2{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+#testimonials{
+    background-color: rgb(224, 224, 224);
+    height: 100vh;
+}.col-md-12 h4{
+    margin-top: 20px;
+}
+#quality{
+    background-image:  linear-gradient(rgba(255,206,62,0.6), rgba(255,206,62,0.6)), url(/assets/img/background3jpeg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-width: 100%;
+}
+#qualiyy p,h2{
+    box-sizing: border-box;
+}
+#quality .signa-p{
+    color: #fff;
+    font-size: 22px;
+    margin: 20px 12%;
+}
+.signa-h{
+    color: #fff;
+    font-size: 55px;
+}
+#quality img{
+    height: 100px;
+    width: 300px;
+}
+.blogcard{
+    width: 510px;
+}
+.blogcard a {
+    font-weight: 500;
+    color: #ffce3e;
+    text-decoration: none;
+}
+.cardhead{
+    position: relative;
+}
+.date{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -30px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background-color: #ffce3e;
+}
+.date p{
+    font-size: 20px;
+    font-weight: 900;
+}
+.myblogcard{
+    display: flex;
+    justify-content: center;
+}
