@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+}
+.row{
+	display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.col-6{
+    width: 50%;
+}
+.col-4{
+    width: calc(100%/12*4);
+}
+.col-12{
+    width: 100%;
+}
+
+/* For tablet */
+@media only screen and (max-width: 992px) {
+    .col-6{
+        width: 100%;
+    }
+    .col-4{
+        width: 50%;
+    }
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    [class*="col-"]{
+        width: 100%;
+    }
+}
+.myimage img{
+    width: 100%;
+    height: 100%;
+}
+.section-text h2::after{
+    content: "";
+    background: slategray;
+    position: absolute;
+    height: 1px;
+    width: 50%;
+    top: 110%;
+    right: 25%;
+}
+.section-text{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.section-text p{
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.section-text span{
+    font-weight: 400;
+    color: #777;
+}
+.section-text h2{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+}
+.section-text p{
+    color: #777;
+    font-size: 0.7rem;
+}
