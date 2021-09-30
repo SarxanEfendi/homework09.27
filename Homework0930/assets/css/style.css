@@ -45,19 +45,3 @@
     line-height: 30px;
 }
 
-#icons .icons-list {
-    
-    display:inline;      
-}
-#icons .icons-list .myicons{
-    margin: 0 25%;
-    text-align: center;
-    list-style: none;
-}
-#icons .icons-list .myicons li{
-    font-size: 100px;
-    display: inline;
-}
-#icons .icons-list .myicons li i{
-    
-}
