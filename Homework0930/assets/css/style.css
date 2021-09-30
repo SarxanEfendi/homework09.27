@@ -1,0 +1,63 @@
+#intro{
+    background-color: #4686a0;
+    background-attachment: fixed;
+    background-image: url(/assets/img/overlay2.png), linear-gradient(
+    45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+    background-position: center;
+    background-size: auto, cover, cover;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+#intro .intro-element{
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#intro .intro-element div{
+    margin-bottom: 2%;
+}
+#intro .intro-element .intro-icon i{
+    font-size: 90px;
+}
+#about .about-text{
+    padding: 10%;
+    
+}
+#about .about-text .text-title{
+    text-align: start;
+    margin-bottom: 7%;
+    width: 85%;
+}
+#about .about-text .text-title h2{
+    color: rgb(102, 102, 102);
+    font-weight: 100;
+    font-size: 2em;
+    line-height: 30px;
+}
+
+#about .about-text .text-body p{
+    color: rgb(131, 130, 130);
+    font-weight: 100;
+    font-size: 1.5em;
+    line-height: 30px;
+}
+
+#icons .icons-list {
+    
+    display:inline;      
+}
+#icons .icons-list .myicons{
+    margin: 0 25%;
+    text-align: center;
+    list-style: none;
+}
+#icons .icons-list .myicons li{
+    font-size: 100px;
+    display: inline;
+}
+#icons .icons-list .myicons li i{
+    
+}
