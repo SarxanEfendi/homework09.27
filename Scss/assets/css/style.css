@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#intro {
+  background-color: #4686a0;
+  background-attachment: fixed;
+  background-image: url(/assets/img/overlay2.png), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+  background-position: center;
+  background-size: auto, cover, cover;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+#intro .intro-element {
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.my-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#lorem {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2))), url(/assets/img/header.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(/assets/img/header.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#lorem .icons-list {
+  display: inline;
+}
+
+#lorem .icons-list .my-icons {
+  text-align: center;
+  list-style: none;
+}
+
+#lorem .icons-list .my-icons div {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 7em;
+  height: 7em;
+  margin: 2em;
+  border: 2px solid #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#lorem .icons-list .my-icons div .lorem-icon {
+  color: blue;
+  position: absolute;
+  right: 12%;
+  top: 13%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  font-size: 5em;
+  display: inline-block;
+  text-align: center;
+}
+
+#adipiscing .my-card {
+  border: none;
+}
+
+#adipiscing .my-card .my-btn {
+  border-color: #6d6b6b;
+  color: #6d6b6b;
+  width: 6em;
+}
+
+#ipsum-feugiat {
+  background-image: url(/assets/img/header.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#ipsum-feugiat .ipsum-btn {
+  width: 70%;
+}
+
+#ipsum-feugiat .ipsum-btn .ipsum-btn-l {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+@media screen and (max-width: 766px) {
+  .ipsum-btn {
+    width: 100%;
+  }
+}
